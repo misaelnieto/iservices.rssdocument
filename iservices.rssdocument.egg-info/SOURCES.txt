@@ -1,0 +1,15 @@
+README.txt
+setup.cfg
+setup.py
+iservices/__init__.py
+iservices.rssdocument.egg-info/PKG-INFO
+iservices.rssdocument.egg-info/SOURCES.txt
+iservices.rssdocument.egg-info/dependency_links.txt
+iservices.rssdocument.egg-info/entry_points.txt
+iservices.rssdocument.egg-info/namespace_packages.txt
+iservices.rssdocument.egg-info/not-zip-safe
+iservices.rssdocument.egg-info/paster_plugins.txt
+iservices.rssdocument.egg-info/requires.txt
+iservices.rssdocument.egg-info/top_level.txt
+iservices/rssdocument/__init__.py
+iservices/rssdocument/tests.py
