@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.3'
+version = '0.4'
 
 setup(name='iservices.rssdocument',
       version=version,
@@ -15,13 +15,12 @@ setup(name='iservices.rssdocument',
         "Programming Language :: Python",
         "Programming Language :: JavaScript",
         "Topic :: Text Processing :: Markup :: HTML",
-        "Development Status :: 4 - Beta",
         "Framework :: Plone",
         ],
       keywords='Plone, RSS, jQuery',
       author='Noe Nieto',
       author_email='desarrollo@iservices.com.mx',
-      url='http://svn.plone.org/svn/collective/iservices.rssdocument',
+      url='https://github.com/collective/iservices.rssdocument/',
       license='LGPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['iservices'],
@@ -29,7 +28,7 @@ setup(name='iservices.rssdocument',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'Products.CMFPlone',
       ],
       entry_points="""
       # -*- Entry points: -*-
@@ -37,6 +36,5 @@ setup(name='iservices.rssdocument',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
       paster_plugins=["ZopeSkel"],
       )

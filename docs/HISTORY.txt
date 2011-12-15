@@ -1,9 +1,35 @@
+
 Changelog
 =========
 
-Please, see README.txt instead.
+0.4 (15-Dic-2011)
+-----------------
+
+ * Plone 4.1 compatibility
+
+ * Update README.txt file
+
+ * Update zRSSFeed jQuery plugin
+
+ * Change jquery namespace from jq to $
+
+0.3 (unreleased)
+----------------
+
+Working product. Changes:
+
+ * Full Test Coverage
+ 
+ * Fully working
+
+
+0.2 (unreleased)
+----------------
+
+ * Don't remember when
 
 0.1dev (unreleased)
 -------------------
 
-- Initial release
+ * Initial release
+
