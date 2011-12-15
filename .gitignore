@@ -2,4 +2,4 @@
 *.pyc
 .DS_Store
 .svn
-iservices.rssdocument.egg-info/
+*.egg-info/
