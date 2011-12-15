@@ -17,6 +17,11 @@
         permission="zope2.View"
         />
   <!-- Zope 3 browser resources -->
+  <!-- 
+       Tip for debugging:
+       Change the "file" parameter to resources/jquery.zrssfeed.js
+       in order to obtain the unminified version
+   -->
     <browser:resource
         name="jquery.zrssfeed.min.js"
         file="resources/jquery.zrssfeed.min.js"
